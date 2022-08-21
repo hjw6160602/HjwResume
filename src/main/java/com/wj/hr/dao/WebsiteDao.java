@@ -6,6 +6,7 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
@@ -34,7 +35,17 @@ public class WebsiteDao {
      * 添加或更新
      */
     public boolean save(Website website) {
-        return false;
+        Integer id = website.getId();
+        List<Object> args = new ArrayList<>();
+        args.add(website.getFooter());
+
+        String sql;
+        if (id == null || id < 1) {
+            sql = "INSERT INTO website(footer) VALUES(?)";
+        } else {
+            sql = "UPDATE website SET footer = ? WHERE id = ?";
+        }
+        return  tpl.update(sql, args.toArray()) > 0;
     }
 
     /**

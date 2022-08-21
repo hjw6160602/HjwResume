@@ -4,6 +4,7 @@ import com.wj.hr.bean.Website;
 import com.wj.hr.dao.WebsiteDao;
 
 import javax.servlet.annotation.WebServlet;
+import org.apache.commons.beanutils.BeanUtils;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
@@ -22,11 +23,13 @@ public class WebsiteServlet extends BaseServlet {
     }
 
     public void save(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        List<Website> websites = dao.list();
-        Website website = (websites != null && !websites.isEmpty()) ? websites.get(0) : null;
-
-        request.setAttribute("websites", website);
-        // 转发
-        request.getRequestDispatcher("/page/admin/website.jsp").forward(request, response);
+        Website website = new Website();
+        BeanUtils.populate(website, request.getParameterMap());
+        if (dao.save(website)) {
+            response.sendRedirect(request.getContextPath() + "website/admin");
+        } else {
+            request.setAttribute("error", "网站信息保存失败");
+            request.getRequestDispatcher("/page/error.jsp").forward(request, response);
+        }
     }
 }
