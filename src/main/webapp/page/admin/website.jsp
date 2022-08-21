@@ -152,7 +152,7 @@
                             <h2>网站信息</h2>
                         </div>
                         <div class="body">
-                            <form class="form-validation" method="post">
+                            <form class="form-validation" method="post" action = ${ctx}>
                                 <div class="row">
                                     <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 form-control-label">
                                         <label for="footer">底部</label>

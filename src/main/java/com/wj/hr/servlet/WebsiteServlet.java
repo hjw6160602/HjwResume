@@ -26,8 +26,10 @@ public class WebsiteServlet extends BaseServlet {
         Website website = new Website();
         BeanUtils.populate(website, request.getParameterMap());
         if (dao.save(website)) {
+            // 重定向到admin
             response.sendRedirect(request.getContextPath() + "website/admin");
         } else {
+            // 保存失败
             request.setAttribute("error", "网站信息保存失败");
             request.getRequestDispatcher("/page/error.jsp").forward(request, response);
         }

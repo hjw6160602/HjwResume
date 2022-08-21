@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a66c863-703f-4e85-b790-edd231d8f680" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/hr/dao/WebsiteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wj/hr/dao/WebsiteDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/hr/servlet/WebsiteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wj/hr/servlet/WebsiteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page/error.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -187,7 +185,8 @@
       <workItem from="1660986919912" duration="300000" />
       <workItem from="1660987263878" duration="7234000" />
       <workItem from="1661000565788" duration="573000" />
-      <workItem from="1661063421342" duration="6858000" />
+      <workItem from="1661063421342" duration="7119000" />
+      <workItem from="1661090079221" duration="207000" />
     </task>
     <task id="LOCAL-00001" summary=".add: 打通数据库网站显示">
       <created>1661074539265</created>
@@ -236,26 +235,26 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="419" y="135" key="CommitChangelistDialog2/0.25.1680.1025@0.25.1680.1025" timestamp="1661074538814" />
-    <state width="1126" height="2" key="GridCell.Tab.0.bottom" timestamp="1661076005464">
+    <state width="1126" height="2" key="GridCell.Tab.0.bottom" timestamp="1661090298143">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1729" height="383" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-234.2560.1415@1440.-234.2560.1415" timestamp="1660999183785" />
-    <state width="1126" height="2" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1661076005464" />
-    <state width="1126" height="2" key="GridCell.Tab.0.center" timestamp="1661076005461">
+    <state width="1126" height="2" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1661090298143" />
+    <state width="1126" height="2" key="GridCell.Tab.0.center" timestamp="1661090298142">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1729" height="383" key="GridCell.Tab.0.center/0.25.1440.875/1440.-234.2560.1415@1440.-234.2560.1415" timestamp="1660999183782" />
-    <state width="1126" height="2" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1661076005461" />
-    <state width="1126" height="2" key="GridCell.Tab.0.left" timestamp="1661076005461">
+    <state width="1126" height="2" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1661090298142" />
+    <state width="1126" height="2" key="GridCell.Tab.0.left" timestamp="1661090298141">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1729" height="383" key="GridCell.Tab.0.left/0.25.1440.875/1440.-234.2560.1415@1440.-234.2560.1415" timestamp="1660999183781" />
-    <state width="1126" height="2" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1661076005461" />
-    <state width="1126" height="2" key="GridCell.Tab.0.right" timestamp="1661076005462">
+    <state width="1126" height="2" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1661090298141" />
+    <state width="1126" height="2" key="GridCell.Tab.0.right" timestamp="1661090298142">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1729" height="383" key="GridCell.Tab.0.right/0.25.1440.875/1440.-234.2560.1415@1440.-234.2560.1415" timestamp="1660999183784" />
-    <state width="1126" height="2" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1661076005462" />
+    <state width="1126" height="2" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1661090298142" />
     <state width="1126" height="2" key="GridCell.Tab.1.bottom" timestamp="1661076005466">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -316,11 +315,11 @@
     </state>
     <state width="1729" height="383" key="GridCell.Tab.3.right/0.25.1440.875/1440.-234.2560.1415@1440.-234.2560.1415" timestamp="1660999183796" />
     <state width="1126" height="2" key="GridCell.Tab.3.right/0.25.1680.1025@0.25.1680.1025" timestamp="1661076005469" />
-    <state x="481" y="32" width="1368" height="1045" key="SettingsEditor" timestamp="1661073834188">
+    <state x="481" y="32" width="1368" height="1045" key="SettingsEditor" timestamp="1661090285985">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="1468" y="-234" width="1368" height="1045" key="SettingsEditor/0.25.1440.875/1440.-234.2560.1415@1440.-234.2560.1415" timestamp="1660999606803" />
-    <state x="481" y="32" key="SettingsEditor/0.25.1680.1025@0.25.1680.1025" timestamp="1661073834188" />
+    <state x="481" y="32" key="SettingsEditor/0.25.1680.1025@0.25.1680.1025" timestamp="1661090285985" />
     <state x="440" y="274" key="Vcs.Push.Dialog.v2" timestamp="1661005710560">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
