@@ -44,7 +44,9 @@ public class WebsiteDao {
             sql = "INSERT INTO website(footer) VALUES(?)";
         } else {
             sql = "UPDATE website SET footer = ? WHERE id = ?";
+            args.add(id);
         }
+        System.out.println(args);
         return  tpl.update(sql, args.toArray()) > 0;
     }
 
