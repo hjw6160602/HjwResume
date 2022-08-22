@@ -1,4 +1,25 @@
 .DS_Store
+
+# User-specific stuff
+/.idea/workspace.xml
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+/.idea/artifacts
+/.idea/compiler.xml
+/.idea/jarRepositories.xml
+/.idea/modules.xml
+/.idea/*.iml
+/.idea/modules
+*.iml
+*.ipr
+
+# Editor-based Rest Client
+/.idea/httpRequests
+
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup
